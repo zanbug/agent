@@ -1,0 +1,21 @@
+.DS_Store
+.idea/
+.claude/
+*.log
+
+# --- secrets / dumps (2026-10-07, pre-push audit) ---
+.env
+.env.*
+*.env
+!.env.example
+.zanbug-ops.env
+# legacy: bugban → zanbug (2026-10-07): old ops file name
+.bugban-ops.env
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*credentials*.json
+*.sql
+*.sql.gz
